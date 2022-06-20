@@ -1,0 +1,63 @@
+#cardapio {
+    box-shadow: 0 0 1rem black;
+    background-color: #F2F2F2;
+    
+    margin-top: 100px;
+    width: 100%;
+    height: 1000px;
+}
+
+#deco {
+    background-color: #B9BF04;
+    
+    border-radius: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.buybutton {
+    cursor: pointer;
+    background-color: green;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+.buybutton:hover {
+    background-color: rgb(0, 109, 0);
+    transition: all 600ms ease;
+}
+.buttons {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bg {
+    color: #F2F2F2;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 6px black;
+    background-color: black;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bg:hover {
+    color: black;
+    background-color: #F2F2F2;
+    transition: all 600ms ease;
+}

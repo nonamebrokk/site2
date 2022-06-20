@@ -1,0 +1,13 @@
+#bgtext {
+    margin-top: 160px;
+    text-align: center;
+    text-justify: auto;
+}
+
+#text {
+    text-shadow: 2px 2px 0px black, 10px 10px 3px black;
+    color: white;
+    
+    font-size: 2rem;
+    width: 100%;
+}
